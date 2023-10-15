@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Definindo box-sizing como border-box para todo o documento*/
+}
+
+body{
+    background: url(./assets/BackgroundPart.svg); /*Definindo o background*/
+}
+
+#container{
+    margin: 36px 24px 0 24px;
+
+}
+
+#title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+
+    width: 372px;
+    height: 58px;
+    padding: 0 26px 8px 26px;
+    border: 1px solid red;
+
+}
+
+#container{
+    border: 1px solid blue;
+}
