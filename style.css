@@ -10,20 +10,23 @@ body{
 
 #container{
     margin: 36px 24px 0 24px;
+}
 
+p{
+    text-align: center;
 }
 
 #title{
-    text-align: center;
     font-size: 48px;
     font-weight: 600;
     color: white;
+
+    margin: auto; /*Garante que o texto ficará no centro da página quando usamos width e height*/
 
     width: 372px;
     height: 58px;
     padding: 0 26px 8px 26px;
     border: 1px solid red;
-
 }
 
 #container{
