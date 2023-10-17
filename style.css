@@ -91,8 +91,8 @@ h2{
 #text{
     margin: 0 24px;
 
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: grid; /*O grid junto o parâmetro abaixo faz uma grade dentro da div, permitindo que a foto fique ao lado*/
+    grid-template-columns: repeat(2, 1fr); /*Repeat 2 colunas com 1fr = 1 fração*/
 
     border: 1px solid purple;
 }
