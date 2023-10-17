@@ -49,40 +49,35 @@ h2{
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
 /*Imagens*/
-#first_row{
+.images{
     display: flex;
     justify-content: center;
 
-    margin: 0 auto 22px;
+    width: 100%;
+    max-width: 360px;
+}
 
-    width: 300px;
+#first_row{
+    margin: 0 auto 22px;
 
     border: 1px solid black;
 }
 
 #second_row{
-    display: flex;
-    justify-content: center;
     gap: 50px;
-
-    /*padding: 10px auto;*/
 
     margin: auto;
 
-    width: 100%;
     max-width: 650px;
 
     border: 1px solid yellow;
 }
 
 #third_row{
-    display: flex;
-    justify-content: center;
     margin: 24px auto;
 
     padding: 0 1px;
 
-    width: 360px;
     height: 250px;
 }
 
@@ -107,6 +102,7 @@ h2{
 }
 
 #caxotinha{
+    border: 1px dotted white;
     padding: 20px;
 }
 
