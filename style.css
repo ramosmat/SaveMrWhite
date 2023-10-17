@@ -92,7 +92,7 @@ h2{
     border: 1px solid purple;
 }
 
-#text p{
+.about_me{
     text-align: left;
     text-indent: 24px;
 
@@ -101,9 +101,11 @@ h2{
     border: 1px solid goldenrod;
 }
 
-#caxotinha{
+#text div{
+    padding: 10px;
+
     border: 1px dotted white;
-    padding: 20px;
+    margin: 5px;
 }
 
 #text img{
