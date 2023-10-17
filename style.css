@@ -8,11 +8,6 @@ body{
     background: url(./assets/BackgroundPart.svg); /*Definindo o background*/
 }
 
-#container{
-    margin: 36px 24px;
-    border: 1px dotted blue;
-}
-
 p{
     text-align: center;
 }
@@ -26,7 +21,7 @@ h1{
     color: white;
 
     margin: auto; /*Garante que o texto ficará no centro da página quando usamos width e height*/
-
+    
     width: 372px;
     height: 58px;
     padding: 0 26px 8px 26px;
@@ -38,13 +33,23 @@ h2{
     font-size: 32px;
     font-weight: 400;
     color: #FFF54F;
-
+    
     margin: 9px auto;
-
+    
     width: 424px;
     padding: 8px 26px 8px;
-
+    
     border: 1px solid white;
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*Container*/
+#container{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    border: 3px dotted blue;
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
@@ -83,32 +88,45 @@ h2{
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
 /*Text*/
-#text{
+#about_me{
+    position: relative;
     margin: 0 24px;
 
-    display: grid; /*O grid junto o parâmetro abaixo faz uma grade dentro da div, permitindo que a foto fique ao lado*/
-    grid-template-columns: repeat(2, 1fr); /*Repeat 2 colunas com 1fr = 1 fração*/
+    display: flex;
+    justify-self: center;
+
+    left: auto;
+    right: auto;
+    
+    width: 100%;
+    max-width: 650px;
 
     border: 1px solid purple;
 }
 
-.about_me{
+.text{
     text-align: left;
     text-indent: 24px;
 
-    width: 350px;
+    font-family: 'Coming Soon', cursive;
+    color: #FFF54F;
 
     border: 1px solid goldenrod;
 }
 
-#text div{
+#about_me div{
     padding: 10px;
 
     border: 1px dotted white;
     margin: 5px;
 }
 
-#text img{
-    width: 200px;
+#about_me img{
+    width: 250px;
+
+    right: 5px;
+    top: 2px;
+
+    padding: 10px;
 }
 
