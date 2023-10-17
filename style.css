@@ -54,7 +54,7 @@ h2{
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
 /*Imagens*/
-.images{
+.walter_images{
     display: flex;
     justify-content: center;
 
@@ -99,9 +99,16 @@ h2{
     right: auto;
     
     width: 100%;
-    max-width: 650px;
+    max-width: 850px;
 
     border: 1px solid purple;
+}
+
+#about_me div{
+    padding: 10px;
+
+    border: 1px dotted white;
+    margin: 5px;
 }
 
 .text{
@@ -112,13 +119,6 @@ h2{
     color: #FFF54F;
 
     border: 1px solid goldenrod;
-}
-
-#about_me div{
-    padding: 10px;
-
-    border: 1px dotted white;
-    margin: 5px;
 }
 
 #about_me img{
