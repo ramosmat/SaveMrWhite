@@ -16,30 +16,30 @@ p{
 /*Titulo e sub titulo*/
 h1{
     text-align: center;
-    font-size: 48px;
+    font-size: 56px;
     font-weight: 600;
     color: white;
 
     margin: auto; /*Garante que o texto ficará no centro da página quando usamos width e height*/
     
-    width: 372px;
+    width: 100%;
     height: 58px;
     padding: 0 26px 8px 26px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 h2{
     text-align: center;
-    font-size: 32px;
+    font-size: 39px;
     font-weight: 400;
     color: #FFF54F;
     
     margin: 9px auto;
     
-    width: 424px;
+    width: 100%;
     padding: 8px 26px 8px;
     
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 /*-----------------------------------------------------------------------------------------------------------------------*/
 /*Container*/
@@ -49,7 +49,7 @@ h2{
 
     width: 100%;
 
-    border: 3px dotted blue;
+    /* border: 3px dotted blue; */
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
@@ -65,7 +65,7 @@ h2{
 #first_row{
     margin: 0 auto 22px;
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 #second_row{
@@ -75,7 +75,7 @@ h2{
 
     max-width: 650px;
 
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 #third_row{
@@ -101,14 +101,17 @@ h2{
     width: 100%;
     max-width: 850px;
 
-    border: 1px solid purple;
+    margin-top: 36px;
+
+    /* border: 1px solid purple; */
 }
 
 #about_me div{
     padding: 10px;
 
-    border: 1px dotted white;
     margin: 5px;
+
+    /* border: 1px dotted white; */
 }
 
 .text{
@@ -118,7 +121,7 @@ h2{
     font-family: 'Coming Soon', cursive;
     color: white;
 
-    border: 1px solid goldenrod;
+    /* border: 1px solid goldenrod; */
 }
 
 #about_me img{
@@ -156,7 +159,7 @@ h2{
 
     font-size: 30px;
 
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 #social_links a{
@@ -179,7 +182,7 @@ h2{
 /*Disclaimer & Footer*/
 #disclaimer{
     box-sizing: border-box;
-    margin-top: 100px;
+    margin-top: 80px;
 
     text-align: center;
 
