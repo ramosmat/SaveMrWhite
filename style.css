@@ -142,6 +142,8 @@ h2{
     background-color: orange;
     border-radius: 5px;
 
+    margin-top: 36px;
+
     box-shadow: 5px -5px rgba(0, 0, 0, 0.2);
 }
 
@@ -149,6 +151,8 @@ h2{
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+
+    margin-top: 36px;
 
     font-size: 30px;
 
@@ -173,3 +177,21 @@ h2{
 
 /*-----------------------------------------------------------------------------------------------------------------------*/
 /*Disclaimer & Footer*/
+#disclaimer{
+    box-sizing: border-box;
+    margin-top: 100px;
+
+    text-align: center;
+
+}
+
+#disclaimer a{
+    text-decoration: none;
+}
+
+footer{
+    box-sizing: border-box;
+    margin-top: 12px;
+
+    text-align: center;
+}
